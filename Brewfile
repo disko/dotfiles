@@ -7,6 +7,7 @@ tap 'homebrew/dupes'
 # tap 'homebrew/php'
 
 # Install ZSH
+brew 'gdbm'
 brew 'zsh'
 brew 'zsh-completions'
 
