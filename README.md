@@ -1,18 +1,30 @@
-# dotfiles
+# disko's personal dotfiles
 
 based on
 
   - https://github.com/driesvints/dotfiles/
-  - others
+  - and others
 
+## Configure macOS clean install
 
-Appstore:
+1. clone the repo to ~/.dotfiles
+2. run ./install.sh
 
-  - Pixelmator
-  - Telephone
+This will install a bunch of software and apply some sane defaults to
+macOS.
 
-Applications to be installed manually:
+Only a few apps must be installed manually or from the Appstore:
 
-  - Bank X
-  - Monkey Office
-  - Navicat for PostgreSQL Lite
+  - Appstore:
+
+    - NZBVortex
+    - Pixelmator
+    - Telephone
+    - Timeline
+    - Navicat *
+
+  - manually:
+
+    - Bank X
+    - cubeSQL
+    - Monkey Office
