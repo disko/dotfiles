@@ -17,6 +17,14 @@ brew bundle
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
+# Install and setup OMZ
+if test ! $(which upgrade_oh_my_zsh); then
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+fi
+# Use the completions provided Homebrew's git-flow-avh instead of OMZ's plugin
+ln -s /usr/local/share/zsh/site-functions/git-flow-completion.zsh $HOME/.oh-my-zsh/custom/plugins/git-flow-avh.plugin.zsh
+ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 source .macos
