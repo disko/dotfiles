@@ -1,0 +1,85 @@
+{
+  "anaconda_gutter_marks": true,
+  "anaconda_gutter_theme": "alpha",
+  "auto_complete_triggers":
+  [
+    {
+      "characters": ".",
+      "selector": "source.python - string - comment - constant.numeric"
+    }
+  ],
+  "bold_folder_labels": true,
+  "caret_style": "phase",
+  "color_scheme": "Packages/User/Smyck.tmTheme",
+  "complete_all_parameters": true,
+  "detect_indentation": true,
+  "detect_slow_plugins": true,
+  "draw_minimap_border": true,
+  "draw_white_space": "selection",
+  "ensure_newline_at_eof_on_save": true,
+  "fade_fold_buttons": false,
+  "file_exclude_patterns":
+  [
+    "*.pyc",
+    "*.pyo",
+    "*.exe",
+    "*.dll",
+    "*.obj",
+    "*.o",
+    "*.a",
+    "*.lib",
+    "*.so",
+    "*.dylib",
+    "*.ncb",
+    "*.sdf",
+    "*.suo",
+    "*.pdb",
+    "*.idb",
+    ".DS_Store",
+    "*.class",
+    "*.psd",
+    "*.db"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    ".ropeproject",
+    "__pycache__",
+    "CVS",
+    "*.egg-info",
+    "_build"
+  ],
+  "font_face": "Source Code Pro Light",
+  "font_size": 16.0,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Graphviz",
+    "GraphvizPreview",
+    "JSLint",
+    "RestructuredText",
+    "Solarized Color Scheme",
+    "Vintage"
+  ],
+  "line_padding_bottom": 2,
+  "line_padding_top": 2,
+  "match_brackets": true,
+  "overlay_scroll_bars": "system",
+  "rulers":
+  [
+    72,
+    80,
+    120
+  ],
+  "scroll_past_end": false,
+  "shift_tab_unindent": true,
+  "show_full_path": true,
+  "show_tab_close_buttons": false,
+  "tab_size": 2,
+  "theme": "Soda Dark 3.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "use_tab_stops": true
+}
